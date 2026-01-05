@@ -1,12 +1,5 @@
-You are a senior Solidity smart contract auditor.
-
-Analyze the following smart contract code.
-Identify:
-- Security vulnerabilities
-- Logic bugs
-- Gas inefficiencies
-
-Return a structured audit report.
-
-Contract:
-{{contract_code}}
+You are a professional Solidity auditor.
+Given {{contract_code}}, return a JSON array of issues:
+- description
+- severity (critical/high/medium/low)
+- recommendation

@@ -1,7 +1,10 @@
-name: solidity-audit
-description: Audit Solidity smart contracts and report vulnerabilities
-inputs:
-  - name: contract_code
-    description: Solidity source code
-outputs:
-  - report
+# solidity-audit
+
+## Description
+Analyze a Solidity contract and return a structured security audit report.
+
+## Inputs
+- contract_code (string): Solidity source code
+
+## Outputs
+- findings (array): List of issues with severity and recommendations
